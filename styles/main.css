@@ -41,8 +41,8 @@ nav li a:hover:not(.active) {
     background-color: #4CAF50;
   }
 
-  /* Hero Image */
-  #hero_image {
+  /* Home Image */
+  #home_image {
     text-align: center;
     background-color: rgb(107, 65, 107);
   }
@@ -89,13 +89,27 @@ nav li a:hover:not(.active) {
     margin-bottom: 5px;
   }
 
-  /* Product Details */
-  section#product_details {
-    clear: both;
-    text-align: center;
+  div.EnterNorthHouse {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+  }
+
+  div.NorthLivingRoom {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
   }
 
   footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     background-color: #000000;
     color: #ffffff;
